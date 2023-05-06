@@ -40,3 +40,20 @@ safe_singlepart_v2 = function(values)
   })
   safe_sd(values)
 }
+
+sd_default = function(values)
+{
+  sd(values)
+}
+
+safe_sd_v1 = purrr::safely(sd_default)
+
+sd_notdefault = function(values)
+{
+  mn_vals = mean(values)
+  diffs_mn = values - mn_vals
+  sum_sq = sum(diffs_mn^2)
+  sqrt(sum_sq / (length(values) - 1))
+}
+
+safe_sd_v2 = purrr::safely(sd_notdefault)

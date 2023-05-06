@@ -13,6 +13,8 @@ tar_plan(
   sd_2part_v2 = safe_twopart_v2(use_values),
 
   sd_1part_v1 = safe_singlepart_v1(use_values),
-  sd_1part_v2 = safe_singlepart_v2(use_values)
+  sd_1part_v2 = safe_singlepart_v2(use_values),
 
+  sd_other_v1 = safe_sd_v1(use_values),
+  sd_other_v2 = safe_sd_v2(use_values)
 )
