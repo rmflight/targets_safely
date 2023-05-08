@@ -57,3 +57,8 @@ sd_notdefault = function(values)
 }
 
 safe_sd_v2 = purrr::safely(sd_notdefault)
+
+safe_sd_depends = function(values){
+  safe_version = purrr::safely(sd_notdefault)
+  safe_version(values)
+}
