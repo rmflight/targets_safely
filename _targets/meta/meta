@@ -1,4 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+na_values|stem|dc0e9dcdb58d1502|06cab4bbc36ea22b|1b238d96cdfeda08|1790103888||t19485.0252553164s|dab8cc467459f6fc|862|rds|local|vector|||0.001||
 safe_sd_v1|function|00758262fad8ce25|||||||||||||||
 safe_sd_v2|function|00758262fad8ce25|||||||||||||||
 safe_singlepart_v1|function|9bb46fe54efb3c08|||||||||||||||
@@ -6,6 +7,7 @@ safe_singlepart_v2|function|375967d42c0fdbe3|||||||||||||||
 safe_twopart_v1|function|45dc2427d85de6a4|||||||||||||||
 safe_twopart_v2|function|9a500878f1a85644|||||||||||||||
 sd_1part_v1|stem|04ec3e0aa85e2a28|698fe4fa329b41df|82b68fa238b03d13|877095644||t19483.7587096726s|9935591c0ed1d478|103|rds|local|vector|||0.001||
+sd_1part_v1_na|stem|3b585ce87a255eaa|bc6ce197252850e7|d8ef3c6818c77272|84393536||t19485.0252561497s|887021b347b02e8f|100|rds|local|vector|||0||
 sd_1part_v2|stem|04ec3e0aa85e2a28|26e37487fb759ffe|0e2959b98dc6e0ac|548291494||t19483.7587097189s|9935591c0ed1d478|103|rds|local|vector|||0.001||
 sd_2part_v1|stem|04ec3e0aa85e2a28|fe71ee2b91591684|5907a0d52852363e|1306672556||t19483.7587094874s|9935591c0ed1d478|103|rds|local|vector|||0||
 sd_2part_v2|stem|04ec3e0aa85e2a28|6f5bfebeff79c182|be6a64d02c302dad|1998426146||t19483.7587095337s|9935591c0ed1d478|103|rds|local|vector|||0||
